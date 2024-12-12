@@ -30,6 +30,9 @@
     width: 15vh;
     cursor: pointer;
 }
+.profile:hover{
+    opacity: 50%;
+}
 
 body {
     margin: 0;
@@ -111,13 +114,17 @@ body {
     align-items: center;
 }
 .cra {
-    height: 80%;
+    height: 500px;
 }
 .desactivate {
     display: none;
 }
 .pickimage {
     width: calc(100%/3);
+    cursor: pointer;
+}
+.pickimage:hover {
+    background-color: rgba(0, 0, 0, 0.136);
 }
 .pickimages {
     width: calc(100%/3);
@@ -205,6 +212,7 @@ body {
     background-size: cover;
     margin: 0;
     padding: 0;
+    gap: 5vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -218,32 +226,33 @@ body {
     background-size: cover;
     margin: 0;
     padding: 0;
+    gap: 5vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .victory {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background: linear-gradient(135deg, #ff9800, #ff5722);
-color: #ffffff;
-text-align: center;
-font-family: 'Arial', sans-serif;
-animation: fadeIn 1s ease-in-out;
+    background-color: #26e23f; 
+    color: rgb(0, 0, 0); 
+    font-size: 16px;
+    font-weight: bold; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease; 
 }
 
 .null {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(135deg, #ff9800, #ff5722);
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Arial', sans-serif;
-    animation: fadeIn 1s ease-in-out;
+    background-color: #e63946; 
+    color: white; 
+    font-size: 16px;
+    font-weight: bold; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease; 
 }
 
 .restart-button {
