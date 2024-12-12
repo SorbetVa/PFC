@@ -1,0 +1,293 @@
+
+
+.start {
+    display: flex;
+    background-image: url(../img/EoVnhPiXUAAlySB.jpg_large) ;
+    height: 695px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap :5vh;
+}
+.myprofile {
+    height: 15vh;
+    width: 15vh;
+    position: absolute; 
+    left: 10px;
+    z-index: 10; 
+}
+.align {
+    display: flex;
+    gap: 5vh;
+}
+.profile {
+    height: 15vh;
+    width: 15vh;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+}
+
+.pseudoenvoie {
+    background-color: #87CEFA; 
+    color: white;
+    border: none; 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease-in-out;
+}
+.pseudoenvoie:hover {
+    background-color: #4682B4; 
+    transform: scale(1.05); 
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.pseudoenvoie:active {
+    transform: scale(0.95);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.pseudo {
+    width: 300px; 
+    padding: 10px 15px; 
+    border: 2px solid #87CEFA; 
+    border-radius: 20px; 
+    font-size: 16px; 
+    color: #333; 
+    background-color: #f9f9f9; 
+    outline: none; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease-in-out;
+}
+.error {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: #f70707; 
+    text-shadow: 2px 2px 5px rgba(255, 21, 21, 0.7);
+    text-align: center; 
+    font-family: 'Cinzel', serif; 
+
+}
+
+#second {
+    display: none;
+    background-image: url(../img/Dofus-Astrub-sous-toutes-ses-couleurs-Temporis-Osatopia.avif) ;
+    height: 695px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.pick  {
+    background-color: rgba(28, 50, 37, 0.3);
+    backdrop-filter: blur(3px);
+    width: 50%;
+    height: 20%;
+    display: flex;
+    border-radius: 10%;
+}
+.hero {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vilain {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cra {
+    height: 80%;
+}
+.desactivate {
+    display: none;
+}
+.pickimage {
+    width: calc(100%/3);
+}
+.pickimages {
+    width: calc(100%/3);
+}
+.pick2  {
+    background-color: rgba(28, 50, 37, 0.3);
+    backdrop-filter: blur(3px);
+    width: 50%;
+    height: 20%;
+    display: flex;
+    border-radius: 10%;
+}
+.username {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: #ffe599; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center; 
+    font-family: 'Cinzel', serif; 
+}
+
+.ordi {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: #ffe599; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center; 
+    font-family: 'Cinzel', serif; 
+}
+.start span {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: #ffe599; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center; 
+    font-family: 'Cinzel', serif; 
+}
+.profilecontain {
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 100px;
+    height: 100%;
+    position: absolute;
+}
+.rules {
+    background-color: rgba(205, 44, 44, 0.1);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+    width: 100px;
+    position: absolute;
+    font-size: 1rem; 
+    font-weight: bold;
+    color: #ffe599; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center; 
+    font-family: 'Cinzel', serif; 
+}
+.rules:hover {
+    width: 473px;
+    height: 200px;
+}
+.result {
+    font-size: 1rem; 
+    font-weight: bold;
+    color: #ffe599; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center; 
+    font-family: 'Cinzel', serif; 
+    right: 40px;
+}
+.end {
+    display: none;
+}
+.win {
+    display: none;
+    background-image: url(../img/Dofus-Astrub-sous-toutes-ses-couleurs-Temporis-Osatopia.avif) ;
+    height: 695px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loose {
+    display: none;
+    background-image: url(../img/Dofus-Astrub-sous-toutes-ses-couleurs-Temporis-Osatopia.avif) ;
+    height: 695px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.victory {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: linear-gradient(135deg, #ff9800, #ff5722);
+color: #ffffff;
+text-align: center;
+font-family: 'Arial', sans-serif;
+animation: fadeIn 1s ease-in-out;
+}
+
+.null {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff9800, #ff5722);
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.restart-button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(45deg, #4caf50, #2e7d32);
+    border: none;
+    border-radius: 50px;
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.restart-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(45deg, #66bb6a, #388e3c);
+}
+.restart-button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.restart-button2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(45deg, #4caf50, #2e7d32);
+    border: none;
+    border-radius: 50px;
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.restart-button2:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(45deg, #66bb6a, #388e3c);
+}
+.restart-button2:active {
+    transform: scale(0.95);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+}
