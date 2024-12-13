@@ -22,6 +22,7 @@ let restart2 = document.querySelector('.restart-button2')
 let score =0
 let enemyScore =0
 let pseudoValue = pseudo.value
+
 restart2.addEventListener('click',Back2)
 restart.addEventListener('click',Back)
 rules.addEventListener('mouseover',text)
