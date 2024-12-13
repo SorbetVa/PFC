@@ -86,7 +86,7 @@ body {
 #second {
     display: none;
     background-image: url(../img/Dofus-Astrub-sous-toutes-ses-couleurs-Temporis-Osatopia.avif) ;
-    height: 695px;
+    height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
